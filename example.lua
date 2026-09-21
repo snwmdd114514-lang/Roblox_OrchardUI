@@ -2,7 +2,7 @@ local MY_GUI_CONFIG_FOLDER = "AppleGUI_Test"
 local MY_GUI_CONFIG_FILE = "config.json"
 
 local URL =
-    "https://raw.githubusercontent.com/snwmdd114514-lang/Roblox_OrchardUI/refs/heads/main/main"
+    "https://raw.githubusercontent.com/snwmdd114514-lang/Roblox_OrchardUI/refs/heads/main/main.lua"
 
 local okHttp, source = pcall(function()
     return game:HttpGet(URL)
